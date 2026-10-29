@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejemplo de colas</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col text-center">
+        <h1>Ejemplo de colas en JS</h1>
+      </div>
+    </div>
+
+    
+    <div class="row mt-5 text-center">
+      <div class="col border" id="e1" style="height:50px;"></div>
+      <div class="col border" id="e2" style="height:50px;"></div>
+      <div class="col border" id="e3" style="height:50px;"></div>
+      <div class="col border" id="e4" style="height:50px;"></div>
+      <div class="col border" id="e5" style="height:50px;"></div>
+    </div>
+
+   
+    <div class="row text-center mt-2">
+      <div class="col">1</div>
+      <div class="col">2</div>
+      <div class="col">3</div>
+      <div class="col">4</div>
+      <div class="col">5</div>
+    </div>
+
+    
+    <div class="row mt-4 text-center">
+      <div class="col"><button class="btn btn-primary btn-lg" id="btnEsperar" onclick="esperar()">Esperar</button></div>
+      <div class="col"><button class="btn btn-success btn-lg" id="btnAtender" onclick="atender()">Atender</button></div>
+    </div>
+  </div>
+
+  <script src="sistema_turnos.js"></script>
+  <script src="bootstrap.min.js"></script>
+</body>
+</html>
+
